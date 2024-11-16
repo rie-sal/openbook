@@ -1,20 +1,3 @@
-gabriele
-mojave7314
-Online
-
-marie — Today at 10:23 AM
-Image
-marie — Today at 5:24 PM
-const express = require('express');
-const bodyParser = require('body-parser');
-const axios = require('axios');
-const dotenv = require('dotenv');
-
-dotenv.config();
-Expand
-message.txt
-6 KB
-﻿
 const express = require('express');
 const bodyParser = require('body-parser');
 const axios = require('axios');
@@ -127,5 +110,3 @@ app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
     console.log('OpenAI API Key present:', !!process.env.OPENAI_API_KEY);
 });
-message.txt
-6 KB
